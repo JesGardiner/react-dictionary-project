@@ -1,16 +1,17 @@
 import React from "react";
-import './App.css';
+import "./App.css";
 import WordSearch from "./WordSearch";
 
 export default function App() {
   return (
     <div className="App">
-      <div className="comntainer">
-        <header className="App-header">Hello from App</header>
-        <main>
+      <div className="container">
+        <header className="App-header">
+          D I C T I O N A R Y
           <WordSearch />
-        </main>
+        </header>
       </div>
+      <footer className="App-footer">Coded by Jess Gardiner</footer>
     </div>
   );
 }
